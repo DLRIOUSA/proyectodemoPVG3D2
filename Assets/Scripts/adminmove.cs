@@ -23,4 +23,9 @@ public class adminmove : MonoBehaviour
         puntos = puntos + score;
         textoPuntos.text = puntos.ToString();
     }
+    public void restarpuntos(int score)
+    {
+        puntos = puntos - score;
+        textoPuntos.text = puntos.ToString();
+    }
 }
